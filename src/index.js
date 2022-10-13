@@ -19,7 +19,7 @@ const apiResponse = async () => {
   const storedScores = await fetch(newUrl);
   const response = await storedScores.json();
   Scores.displayScores(response.result);
-}
+};
 
 refresh.addEventListener('click', () => {
   window.location.reload();
