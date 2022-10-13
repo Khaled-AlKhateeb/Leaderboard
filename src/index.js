@@ -15,15 +15,15 @@ form.addEventListener('submit', (e) => {
   form.reset();
 });
 
-refresh.addEventListener('click', async () => {
-  window.location.reload();
+const apiResponse = async () => {
   const storedScores = await fetch(newUrl);
   const response = await storedScores.json();
   Scores.displayScores(response.result);
+}
+
+refresh.addEventListener('click', () => {
+  window.location.reload();
+  apiResponse();
 });
 
-document.addEventListener('DOMContentLoaded', async () => {
-  const storedScores = await fetch(newUrl);
-  const response = await storedScores.json();
-  Scores.displayScores(response.result);
-});
+document.addEventListener('DOMContentLoaded', apiResponse());
