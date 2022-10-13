@@ -9,7 +9,7 @@ In this activity you will set up a JavaScript project for the Leaderboard list a
 
 ## Live Demo (if available)
 github repo link 
-[https://github.com/ManarOmari/Leaderboard]
+[https://khaled-alkhateeb.github.io/Leaderboard/]
 
 ## Getting Started
 
@@ -22,11 +22,11 @@ github repo link
 ### Setup
 *Instructions on how to access my project locally.*
  To Access my project locally please follow the following instructions;
-1. Enter this url: https://github.com/ManarOmari/Leaderboard/ in your web browser.
+1. Enter this url: https://khaled-alkhateeb.github.io/Leaderboard// in your web browser.
 2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 3. Select download Zip option from drop down menu.
 4. Once the download is complete you will be able to access my project locally.
-Here is my repository link: https://github.com/ManarOmari/Leaderboard/
+Here is my repository link: https://khaled-alkhateeb.github.io/Leaderboard//
 
 ### Install
 Open index.html
@@ -48,7 +48,7 @@ npm run start
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Khaled-AlKhateeb/Leaderboard/issues).
 
 ## Show your support
 
