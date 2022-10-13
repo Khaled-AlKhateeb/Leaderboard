@@ -6,7 +6,6 @@ export default class Scores {
 
   static displayScores(scores) {
     const list = document.querySelector('.list');
-    
     for (let i = 0; i < scores.length; i += 1) {
       const listItem = document.createElement('li');
       listItem.classList.add('list-item');
