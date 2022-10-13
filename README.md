@@ -26,7 +26,19 @@ github repo link
 2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 3. Select download Zip option from drop down menu.
 4. Once the download is complete you will be able to access my project locally.
-Here is my repository link: https://khaled-alkhateeb.github.io/Leaderboard//
+Here is my repository link: https://khaled-alkhateeb.github.io/Leaderboard//.
+
+###steps to generate API ID:
+1. visit [postman](https://www.postman.com/).
+2. Add a new Workspace to your profile.
+3. paste the following URL in the POST field https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/.
+4. On the header tab add the content_type as JSON.
+5. On the body tab add the following code:
+  { 
+	"name": "My cool new game" 
+  }
+6. Click on the send button.
+7. Copy the ID generated in the bottom side of the screen.
 
 ### Install
 Open index.html
